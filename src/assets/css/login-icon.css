@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'login-icon';
+	src: url('/static/fonts/login-icon.eot');
+	src: url('/static/fonts/login-icon.eot?#iefix') format('embedded-opentype'), url('/static/fonts/login-icon.ttf') format('truetype');
+}
+
+.login-icon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'login-icon';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+	content: '\E008';
+}
+
+.icon-lock:before {
+	content: '\E033';
+}
+
+.icon-imp:before {
+	content: "\E101";
+}
+
+.icon-mobile:before {
+	content: "\E145";
+}
+
+.icon-face:before {
+	content: "\E001";
+}
+
+.icon-yaoshi:before {
+	content: "\E262";
+}
+
+.icon-ca:before {
+	content: "\E263";
+}
